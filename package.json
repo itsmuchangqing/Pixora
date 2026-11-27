@@ -1,0 +1,36 @@
+{
+  "name": "pixora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pixora - 本地优先的图片与游戏素材像素化工坊",
+  "license": "MIT",
+  "author": "Pixora contributors",
+  "keywords": [
+    "pixel-art",
+    "image-processing",
+    "game-assets",
+    "canvas",
+    "vue",
+    "typescript",
+    "pwa"
+  ],
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n WEB,API -c magenta,cyan \"npm run dev:web\" \"npm run dev:api\"",
+    "dev:web": "npm run dev --workspace @pixora/web",
+    "dev:api": "npm run dev --workspace @pixora/api",
+    "preview:web": "npm run preview --workspace @pixora/web",
+    "build": "npm run build --workspace @pixora/web && npm run build --workspace @pixora/api",
+    "typecheck": "npm run typecheck --workspace @pixora/web && npm run typecheck --workspace @pixora/api",
+    "start": "npm run start --workspace @pixora/api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

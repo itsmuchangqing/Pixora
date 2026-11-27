@@ -1,0 +1,59 @@
+
+:root {
+
+  --font-sans:
+    'Inter', 'SF Pro Text', 'Segoe UI Variable', 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --font-display:
+    'SF Pro Display', 'Segoe UI Variable Display', 'Segoe UI', 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+
+  --white: #ffffff;
+  --color-page: #ffffff;
+  --color-ink: #19131f;
+  --color-ink-soft: #403848;
+  --color-muted: #756b7f;
+  --color-subtle: #9b92a5;
+  --color-line: #ece8f1;
+  --color-line-strong: #ddd5e7;
+  --color-canvas: #f8f6fb;
+
+  --violet-25: #fbf9ff;
+  --violet-50: #f5f1ff;
+  --violet-100: #eee7ff;
+  --violet-200: #ddd0ff;
+  --violet-300: #c7b2ff;
+  --violet-400: #a888ff;
+  --violet-500: #8b5cf6;
+  --violet-600: #7c3aed;
+  --violet-700: #6d28d9;
+  --violet-800: #5b21b6;
+  --violet-900: #3b1378;
+
+  --green-500: #10b981;
+  --amber-500: #f59e0b;
+  --red-500: #ef4444;
+
+  --gradient-violet: linear-gradient(135deg, #9366ff 0%, #7c3aed 52%, #6d28d9 100%);
+  --gradient-violet-soft: linear-gradient(135deg, #faf7ff 0%, #f1eaff 100%);
+
+  --radius-xs: 8px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 999px;
+
+  --shadow-xs: 0 1px 2px rgba(34, 20, 56, 0.04);
+  --shadow-sm: 0 4px 14px -6px rgba(53, 29, 91, 0.1);
+  --shadow-md: 0 18px 40px -24px rgba(70, 34, 121, 0.22);
+  --shadow-lg: 0 32px 80px -36px rgba(71, 34, 130, 0.3);
+  --shadow-violet: 0 12px 26px -12px rgba(109, 40, 217, 0.48);
+  --shadow-artwork: 0 32px 64px -28px rgba(57, 31, 101, 0.36),
+    0 12px 24px -18px rgba(57, 31, 101, 0.18);
+
+  --container-width: 1240px;
+  --header-height: 78px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
